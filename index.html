@@ -57,7 +57,48 @@ img {
 	font-size: 150%;
 	color: #FF371F;
 	}
+/*DROPDOWN BUTTON*/
+	
+.dropbtn {
+	background-color: #2E3136;
+	color: white;
+	padding: 14px;
+	font-size: 400%;
+	border: none;
+	cursor: pointer;
+	}
+	
+.dropdown {
+	position: relative;
+	display: inline-block;
+	}
+	
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #282B30;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
 
+.dropdown-content a {
+	color: white;
+	padding: 12p 16px;
+	text-decoration: none;
+	display: block;
+	}
+	
+.dropdown-content a:hover {
+	background-color: #2196F3;
+	}
+	
+.dropdown:hover .dropdown-content {
+	display: block;
+	}
+	
+.dropdown:hover .dropbtn {
+	background-color:#1B1D20;
+	}
 
 	
 
@@ -70,9 +111,11 @@ img {
 
 <br>
 	<h1>What tank would you like to master?</h1>
-	<ul>
 
-		  
+<div class="dropdown">
+	<button class="dropbtn">Choose a Tank...</button>
+	<div class="dropdown-content">
+	
 	<a href="#annihilator">Annihilator</a>
 	<a href="#auto5">Auto 5</a>
 	<a href="#autosmasher">Auto Smasher</a>
@@ -81,9 +124,9 @@ img {
 	<a href="#booster">Booster</a>
 	<a href="#factory">Factory</a>
 	<a href="#fighter">Fighter</a>
-    </div>
-  </li>
-		  
+	</div>
+	</div>
+
 <a href="https://discord.gg/t3hHRwn">Diep Colony</a>
 <a href="https://discord.gg/ceSvshA">Sun Knights</a>
 <a href="http://reddit.com/r/diepio">Reddit</a>
