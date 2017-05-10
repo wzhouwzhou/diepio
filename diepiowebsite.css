@@ -73,8 +73,6 @@ img {
 	background-color: #2E3136; 
 	min-width: 200px;
 	z-index: 1;
-	float: left;
-	left: 0;
 }
 .dropdown-content a {
 	color: #FFF;
