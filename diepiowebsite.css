@@ -68,11 +68,11 @@ img {
 	width: 50%
 	z-index: 1;
 	position: relative;
-	display: inline-block;
+	display: block;
 	}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-	display: none;
+	display: block;
 	margin: auto;
 	width: 50%;
 	text-align: center;
@@ -86,6 +86,7 @@ img {
 	}
 /* Links inside the dropdown */
 .dropdown-content a {
+	position: relative;
 	color: white;
 	background-color: #2E3136;
 	padding: 16px;
@@ -110,19 +111,6 @@ img {
 .dropdown:hover .dropbtn {
 	background-color:#282B30;
 	}
-/*Back to top button*/
-div.fixed {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	width: 50px;
-	height: 50px;
-	border: 10px solid #36393E;
-	background-color: #2196F3;
-	border-radius: 1000px;
-	text-align: center;
-	font-size: 440%;
-	font-family: ubuntu, sans-serif;
 	
 }
 /* Style The Dropdown Button */
@@ -141,11 +129,11 @@ div.fixed {
 	width: 50%
 	z-index: 1;
 	position: relative;
-	display: inline-block;
+	display: block;
 	}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-	display: none;
+	display: block;
 	margin: auto;
 	width: 50%;
 	text-align: center;
