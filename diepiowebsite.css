@@ -83,6 +83,9 @@ img {
 .dropdown-content a:hover {
 	background-color: #2196F3;
 }
+.show {
+	display: block;
+}
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
