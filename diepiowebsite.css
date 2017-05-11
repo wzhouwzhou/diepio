@@ -74,13 +74,13 @@ li a:hover {
 	background-color: #282B30;
 	}
 .btn-group button {
-    background-color: #2E3136;
-    border: none;
-    color: #FFF;
-    padding: 10px 15px;
-    cursor: pointer;
-    width: 50%;
-    display: block;
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
 }
 
 .btn-group button:not(:last-child) {
@@ -89,5 +89,5 @@ li a:hover {
 
 /* Add a background color on hover */
 .btn-group button:hover {
-    background-color: #282B30;
+    background-color: #3e8e41;
 }
