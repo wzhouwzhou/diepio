@@ -73,6 +73,7 @@ img {
 	background-color: #2E3136; 
 	min-width: 200px;
 	z-index: 1;
+	.show {display: block;
 }
 .dropdown-content a {
 	color: #FFF;
@@ -82,9 +83,6 @@ img {
 }
 .dropdown-content a:hover {
 	background-color: #2196F3;
-}
-.show {
-	display: block;
 }
 <script>
 /* When the user clicks on the button, 
