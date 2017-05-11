@@ -51,62 +51,6 @@ img {
 	font-size: 150%;
 	color: #FF371F;
 	}
-/*DROPDOWN BUTTON*/
-.dropbtn {
-	background-color: #2E3136;
-	color: #FFF;
-	padding: 20px;
-	font-size: 200%;
-	border: none;
-	cursor: pointer;
-}
-.dropbtn:hover, .dropbtn:focus {
-	background-color: #282B30;
-}
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #2E3136; 
-	min-width: 200px;
-	z-index: 1;
-	.show {display: block;
-}
-.dropdown-content a {
-	color: #FFF;
-	padding: 10px 15px;
-	text-decoration: none;
-	display: block;
-}
-.dropdown-content a:hover {
-	background-color: #2196F3;
-}
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function openbtn() {
-    document.getElementById("dropcont").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
 /*List of Helpful Links*/
 ul {
 	display: inline;
