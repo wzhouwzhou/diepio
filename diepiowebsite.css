@@ -73,3 +73,21 @@ li a {
 li a:hover {
 	background-color: #282B30;
 	}
+.btn-group button {
+    background-color: #2E3136;
+    border: none;
+    color: #FFF;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #282B30;
+}
