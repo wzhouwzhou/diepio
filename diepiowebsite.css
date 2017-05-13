@@ -43,6 +43,10 @@ img {
 	max-width: 100%;
 	padding: 10px;
 	}
+#img_normal {
+	border-radius: 4px;
+	max-width: 100%;
+}
 #guide_title {
 	text-align: left;
 	font-size: 200%;
