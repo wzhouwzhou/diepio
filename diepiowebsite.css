@@ -20,23 +20,21 @@ a:link {
 	text-decoration: none;
 	}
 a:visited {
-	color: #660099;
+	color: #1A0DAB;
 	text-decoration: none;
 	}
 a:hover {
-	color: #2196F3;
+	color: #1A0DAB;
 	text-decoration: underline;
 	}
 a:active {
-	color: #2196F3;
+	color: #1A0DAB;
 	text-decoration: underline;
 	}
 	
 p {
 	font-family: Ubuntu, Sans-Serif;
-	color: #FFFFFF;
-	background-color: #FFF;
-	z-index: -1;
+	color: #000;
 }
 img {
 	border-radius: 40px;
