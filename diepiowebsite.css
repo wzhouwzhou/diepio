@@ -3,7 +3,6 @@
 body {
 	color: #000;
 	background-color: #FFF;
-	background-repeat: repeat-y repeat-x;
 	margin: 0px 100px 0px;
 	font-family: ubuntu, sans-serif;
 }
@@ -13,26 +12,9 @@ h1 {
 	position: relative;
 	font-family: ubuntu, sans-serif;
 	font-size: 400%;
-	}
-a:link {
-	color: #1A0DAB;
-	text-decoration: none;
-	}
-a:visited {
-	color: #1A0DAB;
-	text-decoration: none;
-	}
-a:hover {
-	color: #1A0DAB;
-	text-decoration: underline;
-	}
-a:active {
-	color: #1A0DAB;
-	text-decoration: underline;
-	}
-	
+}
 p {
-	font-family: Ubuntu, Sans-Serif;
+	font-family: ubuntu, sans-serif;
 	color: #000;
 }
 img {
