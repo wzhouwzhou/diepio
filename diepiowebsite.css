@@ -6,6 +6,7 @@ body {
 	margin: 0px 100px 0px;
 	font-family: ubuntu, sans-serif;
 }
+
 h1 {
 	color: #000;
 	text-align: center;
@@ -13,23 +14,43 @@ h1 {
 	font-family: ubuntu, sans-serif;
 	font-size: 400%;
 }
+
 p {
 	font-family: ubuntu, sans-serif;
 	color: #000;
 }
+a:link {
+	color: #4285F4;
+}
+
+a:visited {
+	color: #660099;
+}
+
+a:hover {
+	color: #4285F4;
+}
+
+a:active {
+	color: #4285F4;
+}
+	
 img {
 	max-width: 100%;
 	padding: 10px;
 }
+
 #guide_title {
 	text-align: left;
 	font-size: 200%;
 	color: #4285F4;
 }
+
 #sec_head {
 	font-size: 20px;
 	color: #E9493A;
 }
+
 /*List of Helpful Links*/
 ul {
 	display: inline;
@@ -38,11 +59,13 @@ ul {
 	overflow: hidden;
 	background-color: #FFF;
 }
+
 li {
 	display: inline;
 	list-style-type: none;
 	float: left;
 }
+
 li a {
 	display: block; 
 	color: #777777;
@@ -50,6 +73,7 @@ li a {
 	padding: 10px 16px;
 	text-decoration: none;
 }
+
 li a:hover {
 	color: #222222;
 }
