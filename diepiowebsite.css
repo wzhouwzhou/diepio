@@ -6,7 +6,6 @@ body {
 	background-repeat: repeat-y repeat-x;
 	margin: 0px 100px 0px;
 	font-family: ubuntu, sans-serif;
-	z-index: -1;
 }
 h1 {
 	color: #000;
@@ -14,7 +13,6 @@ h1 {
 	position: relative;
 	font-family: ubuntu, sans-serif;
 	font-size: 400%;
-	z-index: -1;
 	}
 a:link {
 	color: #1A0DAB;
@@ -57,9 +55,9 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #FFF;
-	list-style-type: none;
 	}
 li {
+	display: inline;
 	list-style-type: none;
 	float: left;
 	}
