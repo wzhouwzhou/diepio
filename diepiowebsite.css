@@ -38,12 +38,9 @@ p {
 	color: #000;
 }
 img {
-	border-radius: 40px;
 	max-width: 100%;
 	padding: 10px;
 	}
-#img_normal {
-	max-width: 100%;
 }
 #guide_title {
 	text-align: left;
@@ -76,6 +73,4 @@ li a {
 li a:hover {
 	color: #222222;
 	}
-img:hover {
-	background-color: #F2F2F2;
 }
