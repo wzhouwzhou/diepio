@@ -20,16 +20,16 @@ p {
 img {
 	max-width: 100%;
 	padding: 10px;
-	}
 }
 #guide_title {
 	text-align: left;
 	font-size: 200%;
 	color: #4285F4;
-	}
+}
 #sec_head {
 	font-size: 20px;
 	color: #E9493A;
+}
 /*List of Helpful Links*/
 ul {
 	display: inline;
@@ -37,20 +37,19 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #FFF;
-	}
+}
 li {
 	display: inline;
 	list-style-type: none;
 	float: left;
-	}
+}
 li a {
 	display: block; 
 	color: #777777;
 	text-align: center;
 	padding: 10px 16px;
 	text-decoration: none;
-	}
+}
 li a:hover {
 	color: #222222;
-	}
 }
