@@ -7,10 +7,10 @@ body {
 	font-family: ubuntu, sans-serif;
 }
 body center {
-	display: block;
-	text-align: center;	
-	position: relative;
-	font-size: 70px;
+ 	display: block;
+ 	text-align: center;	
+ 	position: relative;
+	font-size: 200%;
 }
 
 h1 {
