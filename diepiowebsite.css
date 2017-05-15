@@ -31,18 +31,10 @@ img {
 	color: #4285F4;
 }
 
-.sec_head {
-	font-size: 50px;
+.center {
 	text-align: center;
-	position: relative;
-	color: #222222;
 }
 
-.text-center {
-	font-size: 50px;
-	text-align: center;
-	color: #222;
-}
 /*List of Helpful Links*/
 ul {
 	display: inline;
