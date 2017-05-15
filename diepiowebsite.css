@@ -24,17 +24,6 @@ img {
 	max-width: 100%;
 	padding: 10px;
 }
-
-.guide_title {
-	text-align: left;
-	font-size: 200%;
-	color: #4285F4;
-}
-
-.center {
-	text-align: center;
-}
-
 /*List of Helpful Links*/
 ul {
 	display: inline;
