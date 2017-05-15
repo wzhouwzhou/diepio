@@ -38,6 +38,11 @@ img {
 	color: #222222;
 }
 
+.text-center {
+	font-size: 50px;
+	text-align: center;
+	color: #222;
+}
 /*List of Helpful Links*/
 ul {
 	display: inline;
