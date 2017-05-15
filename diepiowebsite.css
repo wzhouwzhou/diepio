@@ -37,13 +37,13 @@ img {
 	padding: 10px;
 }
 
-#guide_title {
+.guide_title {
 	text-align: left;
 	font-size: 200%;
 	color: #4285F4;
 }
 
-#sec_head {
+.sec_head {
 	font-size: 50px;
 	text-align: center;
 	position: relative;
