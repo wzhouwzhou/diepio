@@ -19,7 +19,11 @@ p {
 	font-family: ubuntu, sans-serif;
 	color: #000;
 }
-	
+
+a {
+	text-align: center;
+}
+
 img {
 	max-width: 100%;
 	padding: 10px;
