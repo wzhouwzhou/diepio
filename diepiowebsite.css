@@ -6,6 +6,12 @@ body {
 	margin: 0px 100px 0px;
 	font-family: ubuntu, sans-serif;
 }
+body center {
+	display: block;
+	text-align: center;	
+	position: relative;
+	font-size: 200%;
+}
 
 h1 {
 	color: #4285F4;
