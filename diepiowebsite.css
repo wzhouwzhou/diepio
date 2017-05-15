@@ -18,7 +18,7 @@ h1 {
 h2 {
 	color: #222;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	font-family: ubuntu, sans-serif;
 	font-size: 200%;
 }
