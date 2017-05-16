@@ -31,7 +31,7 @@ img {
 	padding: 10px;
 }
 
-#page_title {
+.page_title {
 	color: #4285F4;
 	text-align: center;
 	position: relative;
